@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Butler Privacy Policy</title>
+<style>
+  body { margin: 0; padding: 40px 16px; font: 17px/1.6 system-ui, sans-serif; background: #f6f5f2; color: #1d1d1b; }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 6px; }
+  a { color: #1f4e8c; }
+  .muted { color: #6b6a66; font-size: 15px; }
+  @media (prefers-color-scheme: dark) { body { background: #151514; color: #ecebe7; } a { color: #7fa8e0; } .muted { color: #9a9993; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Butler Privacy Policy</h1>
+  <p class="muted">Last updated October 25, 2026</p>
+
+  <p>Butler is a private, single-user voice assistant that runs on its owner's home server. Only the
+  owner uses it. This page explains what it does with Google data.</p>
+
+  <h2>What Butler accesses</h2>
+  <p>With the owner's permission, Butler reads, creates, changes and deletes events in the owner's
+  Google Calendar, and reads the list of his calendars. It does not access any other Google data.</p>
+
+  <h2>How the data is used</h2>
+  <p>Calendar data is used only to answer the owner's own requests, such as telling him what is on his
+  schedule or adding an event he asked for. To understand a request and write a reply, the relevant
+  calendar details are sent to Anthropic's Claude API, which processes them under
+  <a href="https://www.anthropic.com/legal/commercial-terms">Anthropic's commercial terms</a>.
+  Nothing else receives the data.</p>
+
+  <h2>What is stored</h2>
+  <p>The sign-in token is stored only on the owner's home server. Butler keeps a short log of recent
+  conversations there so it can follow a conversation; it does not keep a copy of the calendar.</p>
+
+  <h2>Sharing</h2>
+  <p>Google data is never sold, shared with other people, used for advertising, or used to train
+  AI models. Butler's use of information received from Google APIs follows the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+  User Data Policy</a>, including its Limited Use requirements.</p>
+
+  <h2>Removing access</h2>
+  <p>Access can be removed at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Open an issue on this site's GitHub repository.</p>
+  <p><a href="index.html">Back to Butler</a></p>
+</main>
+</body>
+</html>
